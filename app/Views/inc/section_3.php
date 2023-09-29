@@ -16,10 +16,10 @@
                                         <div class="inner"></div>
                                     </div>
 
-                                        <input type="hidden" name="id" value="<?php if (isset($pro['id'])) {echo $pro['id'];}?>">
+                                        <input type="hidden" name="id" value="">
                                     <li>
                                         <h4 class="text-white mb-3">Product Name</h4>
-                                        <input type="text" name="pname" value="<?php if (isset($pro['pname'])) {echo $pro['pname'];}?>" placeholder="Product Name">
+                                        <input type="text" name="pname" value="" placeholder="Product Name">
                                         <div class="icon-holder">
                                           <i class="bi-book"></i>
                                         </div>
@@ -27,7 +27,7 @@
                                     
                                     <li>
                                         <h4 class="text-white mb-3">Product Price</h4>
-                                        <input type="text" name="pprice" value="<?php if (isset($pro['pprice'])) {echo $pro['pprice'];}?>" placeholder="Product Price">
+                                        <input type="text" name="pprice" value="" placeholder="Product Price">
                                         <div class="icon-holder">
                                           <i class="bi-search"></i>
                                         </div>
@@ -35,7 +35,7 @@
 
                                     <li>
                                         <h4 class="text-white mb-3">Product Description</h4>
-                                        <input type="text" name="pdescription" value="<?php if (isset($pro['pdescription'])) {echo $pro['pdescription'];}?>" placeholder="Product Description">
+                                        <input type="text" name="pdescription" value="" placeholder="Product Description">
                                         <div class="icon-holder">
                                           <i class="bi-bookmark"></i>
                                         </div>

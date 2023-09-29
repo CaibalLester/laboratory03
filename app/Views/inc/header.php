@@ -3,7 +3,7 @@
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
                         <i class="bi-back"></i>
-                        <span>Caibal Product</span>
+                        <span>Welcome Admin!</span>
                     </a>
 
                     <div class="d-lg-none ms-auto me-4">

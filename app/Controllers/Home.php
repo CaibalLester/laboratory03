@@ -15,7 +15,6 @@ class Home extends BaseController
 
     public function delete($id)
     {
-        $this->category->delete($id);
         $this->product->delete($id);
         return redirect()->to('/product');
     }
@@ -61,6 +60,12 @@ class Home extends BaseController
 
     public function index(): string
     {
-        return view('index');
+        $data['product'] = $this->product->findAll();
+        return view('index', $data);
+
+        if (save){
+            return view('index');
+        }
+       
     }
 }
