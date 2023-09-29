@@ -44,7 +44,9 @@ class Home extends BaseController
                 else{
                     $this->product->insert($productData);
                 }
+        
                 return view('index');
+                
     }
 
     public function product($product)
@@ -62,10 +64,6 @@ class Home extends BaseController
     {
         $data['product'] = $this->product->findAll();
         return view('index', $data);
-
-        if (save){
-            return view('index');
-        }
-       
+        
     }
 }

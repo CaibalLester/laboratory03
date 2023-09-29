@@ -3,9 +3,9 @@
                     <div class="row">
 
                         <div class="col-lg-8 col-12 mx-auto">
-                            <h1 class="text-white text-center">Discover. Learn. Enjoy</h1>
+                            <h1 class="text-white text-center">Discover. Explore. Enjoy</h1>
 
-                            <h6 class="text-center">platform for creatives around the world</h6>
+                            <h6 class="text-center">tailor your shopping experience to your preferences.</h6>
 
                             
                         </div>
@@ -49,7 +49,7 @@
 
                                             <p class="text-white">Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.</p>
 
-                                            <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
+                                            <a href="#section_5" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
                                         </div>
 
                                         <span class="badge bg-finance rounded-pill ms-auto">25</span>

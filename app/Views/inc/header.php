@@ -29,7 +29,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_4">FAQs</a>
+                                <a class="nav-link click-scroll" href="#section_4">FAQ</a>
                             </li>
     
                             <li class="nav-item">
