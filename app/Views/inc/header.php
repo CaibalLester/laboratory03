@@ -25,7 +25,7 @@
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_3">How it works</a>
+                                <a class="nav-link click-scroll" href="#section_3">Enter Products</a>
                             </li>
 
                             <li class="nav-item">
@@ -35,8 +35,6 @@
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="#section_5">Contact</a>
                             </li>
-
-                            
                         </ul>
 
                         <div class="d-none d-lg-block">
