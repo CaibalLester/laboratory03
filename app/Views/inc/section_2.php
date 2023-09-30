@@ -1,13 +1,9 @@
-<!--myproduct-->
 <section class="explore-section section-padding" id="section_2">
-
                 <div class="container">
                     <div class="row">
-
                         <div class="col-12 text-center">
                             <h2 class="mb-4">Product Informations</h1>
                         </div>
-
                     </div>
                 </div>
                 <center>
@@ -20,13 +16,14 @@
                                         <?php foreach($product as $pr): ?>
                                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-7">
                                             <div class="custom-block bg-white shadow-lg">
-                                                
                                             <img src="<?= "uploads/".$pr['pimage']; ?>" height="100px" width="100px" alt="Image"><br>
                                             <h2 class="mb-2"><?= $pr['pname'] ?></h2>
                                             <h5 class="mb-2">Php &nbsp<?= $pr['pprice'] ?></h5>
-                                            <p class="mb-0"><?= $pr['pdescription'] ?></p>
+                                            <p class="mb-0"><?= $pr['pdescription'] ?></p><br>
+                                            <a href="/delete/<?= $pr['id'] ?>" class="btn btn-danger">Delete</a> <a href="#"></a>
+                                            <a href="/edit/<?= $pr['id'] ?>" class="btn btn-success">Edit</a>
                                             </div>
-                                        </div>
+                                             </div>
                                         <?php endforeach;?>
                                     </div>
                                 </div>
@@ -36,4 +33,3 @@
                 </div>
                 </center>
             </section>
-<!--myproduct-->
