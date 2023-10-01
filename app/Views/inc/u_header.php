@@ -2,7 +2,7 @@
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
                         <i class="bi-back"></i>
-                        <span>Welcome Admin!</span>
+                        <span>Welcome User!</span>
                     </a>
                     <div class="d-lg-none ms-auto me-4">
                         <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
@@ -17,9 +17,6 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="#section_2">Product Info</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_3">Enter Products</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="#section_4">FAQ</a>

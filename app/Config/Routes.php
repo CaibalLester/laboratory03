@@ -6,6 +6,7 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
+$routes->get('/', 'Home::userpage');
 $routes->get('/product', 'Home::CaibalLester');
 $routes->get('/product/(:any)', 'Home::product/$1');
 $routes->post('/save', 'Home::save');
