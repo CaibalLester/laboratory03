@@ -11,16 +11,16 @@
                         <h6 class="site-footer-title mb-3">Resources</h6>
                         <ul class="site-footer-links">
                             <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Home</a>
+                                <a href="#section_1" class="site-footer-link">Home</a>
                             </li>
                             <li class="site-footer-link-item">
                                 <a href="#" class="site-footer-link">How it works</a>
                             </li>
                             <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">FAQs</a>
+                                <a href="#section_4" class="site-footer-link">FAQs</a>
                             </li>
                             <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Contact</a>
+                                <a href="section_5" class="site-footer-link">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -33,7 +33,7 @@
                         </p>
                         <p class="text-white d-flex">
                             <a href="mailto:info@company.com" class="site-footer-link">
-                                info@company.com
+                                Act@company.com
                             </a>
                         </p>
                     </div>
@@ -42,15 +42,14 @@
                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             English</button>
                             <ul class="dropdown-menu">
-                                <li><button class="dropdown-item" type="button">Thai</button></li>
+                                <li><button class="dropdown-item" type="button">Chinese</button></li>
 
-                                <li><button class="dropdown-item" type="button">Myanmar</button></li>
+                                <li><button class="dropdown-item" type="button">Korean</button></li>
 
-                                <li><button class="dropdown-item" type="button">Arabic</button></li>
+                                <li><button class="dropdown-item" type="button">Filipino</button></li>
                             </ul>
                         </div>
-                        <p class="copyright-text mt-lg-5 mt-4">Copyright © 2048 Topic Listing Center. All rights reserved.
-                        <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+                       <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
                     </div>
                 </div>
             </div>

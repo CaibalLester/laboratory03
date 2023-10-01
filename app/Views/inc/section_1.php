@@ -2,7 +2,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-12 mx-auto">
-                            <h1 class="text-white text-center">Discover. Explore. Enjoy</h1>
+                            <h1 class="text-white text-center">Discover. Shopping. Enjoy</h1>
                             <h6 class="text-center">tailor your shopping experience to your preferences.</h6>
                         </div>
                     </div>
@@ -16,11 +16,10 @@
                                 <a href="topics-detail.html">
                                     <div class="d-flex">
                                         <div>
-                                            <h5 class="mb-2">Web Design</h5>
+                                            <h5 class="mb-2">Picture Shop</h5>
 
-                                            <p class="mb-0">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+                                            <p class="mb-0">These pictures can include paintings, prints, posters, photographs, or any visual art that is meant for display. </p>
                                         </div>
-                                        <span class="badge bg-design rounded-pill ms-auto">14</span>
                                     </div>
                                     <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
                                 </a>
@@ -32,12 +31,11 @@
                                     <img src="images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
                                     <div class="custom-block-overlay-text d-flex">
                                         <div>
-                                            <h5 class="text-white mb-2">Finance</h5>
-                                            <p class="text-white">Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.</p>
+                                            <h5 class="text-white mb-2">Want to leran more?</h5>
+                                            <p class="text-white">This shop is a place where art enthusiasts and individuals seeking to enhance the aesthetics of their environments can explore, appreciate, and purchase visual art.</p>
                                             <a href="#section_5" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
                                         </div>
-                                        <span class="badge bg-finance rounded-pill ms-auto">25</span>
-                                    </div>
+                                        </div>
                                     <div class="social-share d-flex">
                                         <p class="text-white me-4">Share:</p>
                                         <ul class="social-icon">

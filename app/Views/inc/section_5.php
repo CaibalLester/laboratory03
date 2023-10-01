@@ -9,7 +9,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
                             <h4 class="mb-3">Head office</h4>
-                            <p>Bay St &amp;, Larkin St, San Francisco, CA 94109, United States</p>
+                            <p>San Vicente &amp; Masipit, Calapan city, Oriental Mindoro, Philippines</p>
                             <hr>
                             <p class="d-flex align-items-center mb-1">
                                 <span class="me-2">Phone</span>
@@ -20,13 +20,13 @@
                             <p class="d-flex align-items-center">
                                 <span class="me-2">Email</span>
                                 <a href="mailto:info@company.com" class="site-footer-link">
-                                    info@company.com
+                                    Act@company.com
                                 </a>
                             </p>
                         </div>
                         <div class="col-lg-3 col-md-6 col-12 mx-auto">
-                            <h4 class="mb-3">Dubai office</h4>
-                            <p>Burj Park, Downtown Dubai, United Arab Emirates</p>
+                            <h4 class="mb-3">Minsu office</h4>
+                            <p>San Vicente &amp; Masipit, Calapan city, Oriental Mindoro, Philippines</p>
                             <hr>
                             <p class="d-flex align-items-center mb-1">
                                 <span class="me-2">Phone</span>
@@ -37,7 +37,7 @@
                             <p class="d-flex align-items-center">
                                 <span class="me-2">Email</span>
                                 <a href="mailto:info@company.com" class="site-footer-link">
-                                    info@company.com
+                                    Act@company.com
                                 </a>
                             </p>
                         </div>

@@ -2,7 +2,7 @@
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
                         <i class="bi-back"></i>
-                        <span>Welcome Admin!</span>
+                        <span>Welcome Shopper!</span>
                     </a>
                     <div class="d-lg-none ms-auto me-4">
                         <a href="#top" class="navbar-icon bi-person smoothscroll"></a>

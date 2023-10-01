@@ -1,10 +1,7 @@
-<!--info1-->
 <section class="timeline-section section-padding" id="section_3">
                 <div class="section-overlay"></div>
-
                 <div class="container">
                     <div class="row">
-
                         <div class="col-12 text-center">
                             <h2 class="text-white mb-4">Enter Product Info</h1>
                         </div>
@@ -15,7 +12,6 @@
                                     <div class="list-progress">
                                         <div class="inner"></div>
                                     </div>
-
                                         <input type="hidden" name="id" value="">
                                     <li>
                                         <h4 class="text-white mb-3">Product Name</h4>
@@ -24,7 +20,6 @@
                                           <i class="bi-book"></i>
                                         </div>
                                     </li>
-                                    
                                     <li>
                                         <h4 class="text-white mb-3">Product Price</h4>
                                         <input type="text" name="pprice" value="" placeholder="Product Price">
@@ -32,7 +27,6 @@
                                           <i class="bi-search"></i>
                                         </div>
                                     </li>
-
                                     <li>
                                         <h4 class="text-white mb-3">Product Description</h4>
                                         <input type="text" name="pdescription" value="" placeholder="Product Description">
@@ -40,7 +34,6 @@
                                           <i class="bi-bookmark"></i>
                                         </div>
                                     </li>
-
                                     <li>
                                         <h4 class="text-white mb-3">Image</h4>
                                         <input type="file" name="pimage" id="pimage" accept=".jpeg, .jpg, .png" value="">
@@ -48,11 +41,9 @@
                                           <i class="bi-image"></i>
                                         </div>
                                     </li>
-
                                 </ul>
                             </div>
                         </div>
-
                         <div class="col-12 text-center mt-5">
                             <p class="text-white">
                                 Want to add Info?
@@ -63,4 +54,3 @@
                     </div>
                 </div>
             </section>
-<!--info1-->

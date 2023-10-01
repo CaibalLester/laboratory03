@@ -8,14 +8,12 @@ class Home extends BaseController
 {
     private $product;
     private $userModel;
-    private $form_validation;
+
 
     public function __construct()
     {
         $this->product = new \App\Models\ProductModel();
         $this->userModel = new \App\Models\UserModel();
-        $this->form_validation = \Config\Services::validation(); 
-        $this->request = \Config\Services::request();
     }
 
     public function delete($id)
@@ -70,38 +68,67 @@ class Home extends BaseController
         return view('index', $data);
     }
 
-    public function regis()
-    {
-        $data['validation'] = $this->form_validation;
-        return view('register', $data);
-    }
+  
 
 
     public function register()
     {
+        helper(['form']);
         $rules = [
-            'username' => 'trim|required|alpha',
-            'password' => 'trim|required',
-            'cpassword' => 'trim|required|matches[password]',
+            'username' => 'required|min_length[100]|valid_email|is_unique[users.email]',
+            'password' => 'required|min_length[4]|max_length[50]',
+            'confirmpassword' => 'matches[password]',
         ];
 
         if ($this->validate($rules)) {
-             $data = [
+            $userModel = new UserModel();
+            $data = [
                 'username' => $this->request->getVar('username'),
-                'password' => $this->request->getVar('password'),
+                'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT)
             ];
-            $this->userModel->insert($data);
-            $checking = $this->userModel->User($data); 
+            $userModel->save($data);
+            return redirect()->to('/signin');
+        } 
+        else 
+        {
+            $data['validation'] = $this->validator;
+            echo view('register', $data);
+        }
+    }
 
-            if ($checking) {
-                $this->session->setFlashdata('status', 'Registered Successfully');
-                return redirect()->to(base_url('index')); 
-            } else {
-                $this->session->setFlashdata('status', 'Registration Failed');
-                return redirect()->to(base_url('index'));
+    public function LoginAuth()
+    {
+        $session = session();
+        $userModel = new UserModel();
+        $username = $this->request->getVar('username');
+        $password = $this->request->getVar('password');
+
+        $data = $userModel->where('username', $username)->first();
+
+        if($data)
+        {
+            $pass = $data['password'];
+            $authenticatePassword = password_verify($password, $pass);
+            if($authenticatePassword)
+            {
+                $ses_data = [
+                    'id' => $data['id'],
+                    'username' => $data['username'],
+                    'isLoggedIn' => TRUE
+                ];
+                $session->set($ses_data);
+                return redirect()->to('/profile');
             }
-        } else {
-            return view('register');
+            else
+            {
+                $session->setFlashdata('msg', 'Password is incorrect.');
+                return redirect()->to('/signin');
+            }
+        }
+        else
+        {
+            $session->setFlashdata('msg', 'Email does not exist.');
+            return redirect()->to('/signin');
         }
     }
 }

@@ -1,20 +1,19 @@
-<section class="timeline-section section-padding" id="register">
+<section class="timeline-section section-padding" id="section_1">
 <div class="section-overlay"></div>
                 <div class="container">
                     <div class="row">
 
                         <div class="col-lg-8 col-12 mx-auto">
-                            <h1 class="text-white text-center">Register</h1>
+                            <h1 class="text-white text-center">Log in</h1>
                         </div>
+
                     </div>
                 </div>
-<?php if(isset($validation)): ?>
+<?php if(session()->getFlashdata('msg')): ?>
     <div class="alert alert-warning">
-<?= $validation->listErrors() ?>
+<?= session()->getFlashdata('msg') ?>
     </div>
 <?php endif; ?>
-
-<form action="<?php echo base_url();?>/Home/register" method="post">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-6 col-12">
@@ -24,14 +23,7 @@
                                     <div class="custom-block-overlay-text d-flex">
                                         <div>
                                             <h3 class="text-white mb-2">Enter you information</h3>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group text-white">
-                                                    <label for="username">Username</label>
-                                                    <input type="text" name="username" placeholder="username" value="<?=set_value('username')?>" class="form-control">
-                                                    </div>
-                                            </div>
-                                        </div>
+                 <form action="<?php echo base_url();?>/Home/LoginAuth" method="post">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group text-white">
@@ -48,16 +40,7 @@
                                                      </div>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group text-white">
-                                                    <label for="confirmpassword">Confirm Password</label>
-                                                    <input type="password" name="confirmpassword" placeholder="Confirm Password" class="form-control">
-                                                    </div>
-                                                    <a type="submit" href="/index"  class="btn custom-btn mt-2 mt-lg-3">Signup</a>
-                                            </div>
-                                        </div>
-                                        
+                                        <button type="submit" class="btn custom-btn mt-2 mt-lg-3">Signin</button>
                                         </div>
                                     </div>
                                     <div class="social-share d-flex">
@@ -71,5 +54,4 @@
                         </div>
                     </div>
                 </div>
-                </form>
             </section>
